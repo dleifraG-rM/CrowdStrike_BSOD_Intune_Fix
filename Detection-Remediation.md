@@ -5,7 +5,6 @@ As long as you can instruct your users on how to enter safe mode with networking
 1. **Add The Below Detection Script To Intune**
    
     - Go to devices -> Scripts and Remediations -> Create
-    - Right-click on the appropriate Organizational Unit (OU) and select `Create a GPO in this domain, and Link it here...`.
     - Save the below as a .ps1 file named "Detection.ps1" and upload the detection script under "Detection script file"
     
 ```powershell
